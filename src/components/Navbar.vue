@@ -6,14 +6,14 @@
           <li class="nav-item active">
             <router-link to="/" class="nav-link" href="#">Presentacion</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#">Download</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Register</a>
-          </li>
+          </li> -->
         </ul>
-        <ul class="nav navbar-nav mx-auto">
+        <!-- <ul class="nav navbar-nav mx-auto">
           <li class="nav-item">
             <router-link to="/inicio" class="nav-link" href="#">DEUDA PUBLICA DE COLOMBIA</router-link>
           </li>
@@ -28,7 +28,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
   </div>
