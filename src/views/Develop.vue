@@ -1,17 +1,17 @@
 <template>
   <div class="developPage">
-    <!-- <Introduction></Introduction> -->
+    <DevTopic></DevTopic>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import Introduction from "@/components/Introduction.vue";
+import DevTopic from "@/components/DevTopic.vue";
 
 export default {
   name: "develop",
   components: {
-    // Introduction
+    DevTopic
   }
 };
 </script>

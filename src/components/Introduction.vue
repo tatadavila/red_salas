@@ -33,6 +33,7 @@ export default {
   height: 90vh;
 }
 #introContainer {
+  font-family: "Arvo", serif;
   position: absolute;
   height: 100%;
   width: 50%;
