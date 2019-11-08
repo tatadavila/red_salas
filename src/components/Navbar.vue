@@ -3,13 +3,10 @@
     <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark main-nav">
       <div class="container">
         <ul align="center" id="navList" class="nav navbar-nav">
-          <li
-            :class="[
-              currentPage.includes('dashboard') ? activeClass : '',
-              'nav-item'
-            ]"
-          >
-            <router-link to="/" class="nav-link">Presentacion</router-link>
+          <li class="nav-item">
+            <router-link to="/" class="nav-link" exact
+              >Presentación</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link to="/bienvenida" class="nav-link"
@@ -23,7 +20,7 @@
           </li>
           <li class="nav-item">
             <router-link to="/proposito" class="nav-link"
-              >Proposito</router-link
+              >Propósito</router-link
             >
           </li>
           <li class="nav-item">
@@ -34,7 +31,6 @@
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
-            
               id="navbarDropdownMenuLink"
               data-toggle="dropdown"
               aria-haspopup="true"
@@ -44,7 +40,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li class="nav-item">
                 <router-link to="/conclusion" class="nav-link"
-                  >Conclusion</router-link
+                  >Conclusión</router-link
                 >
               </li>
               <li class="nav-item">
@@ -54,7 +50,7 @@
               </li>
               <li class="nav-item">
                 <router-link to="/creditos" class="nav-link"
-                  >Creditos</router-link
+                  >Créditos</router-link
                 >
               </li>
             </div>
@@ -103,13 +99,6 @@ export default {
   left: auto;
   right: 0;
   font-size: 25px;
-   background-color:#2f4f4f;
-}
-.active {
-  opacity: 1;
-  visibility: visible;
-  border-left-color: #4DB6AC;
-  margin: 10px;
-  transition: all 0.25s;
+  background-color: #2f4f4f;
 }
 </style>

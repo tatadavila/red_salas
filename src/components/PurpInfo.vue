@@ -44,6 +44,7 @@ export default {
 #purpText {
   font-size: 22px;
   font-weight: bold;
+  padding-top: 2%;
   /* background-color: rgba(191, 181, 168, 0.5); */
 }
 </style>

@@ -16,7 +16,7 @@
 
 #app {
   /* font-family: 'Amatic SC', cursive; */
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

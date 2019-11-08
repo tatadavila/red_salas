@@ -41,14 +41,15 @@ export default {
 #introInfo {
   /* position: absolute; */
   padding-left: 0%;
-  padding-top: 7%;
+  padding-top: 1%;
+  margin: 7% 5%;
   font-weight: 600;
-  font-size: 27px;
+  font-size: 26px;
   color: #1e3131;
-  /* background-color: rgba(191, 181, 168, 0.5); */
+  background-color: rgba(191, 181, 168, 0.5);
 }
 #introName {
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 37px;
 }
 </style>
