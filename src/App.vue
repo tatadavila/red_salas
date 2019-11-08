@@ -3,8 +3,8 @@
     <Navbar></Navbar>
     <transition
       name="router-anim"
-      enter-active-class="animated fadeInDown"
-      leave-active-class="animated fadeOutDown"
+      enter-active-class="animated fadeInUpBig"
+      leave-active-class="animated fadeOutUpBig"
     >
       <router-view />
     </transition>
@@ -30,5 +30,31 @@ body {
 .page {
   position: fixed;
   width: inherit;
+}
+.router-anim-enter-active {
+  animation: coming 1s;
+  opacity: 0;
+}
+.router-anim-enter-active {
+  animation: going 1s;
+}
+@keyframes going {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}
+@keyframes coming {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
-  <div class="hello">
+  <div class="navbarComponent">
     <nav
       class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav"
     >
       <div class="container">
-        <ul class="nav navbar-nav">
+        <ul id="navList" class="nav navbar-nav">
           <li class="nav-item">
             <router-link to="/" class="nav-link">Presentacion</router-link>
           </li>
@@ -14,7 +14,7 @@
             >
           </li>
           <li class="nav-item">
-            <router-link to="/content" class="nav-link"
+            <router-link to="/contenido" class="nav-link"
               >Tabla de Contenido</router-link
             >
           </li>
@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Navbar",
   props: {
     msg: String
   }
@@ -52,7 +52,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .navbar {
-  opacity: 0.7;
   font-weight: 700;
   font-size: 25px;
   color: aliceblue;
@@ -60,5 +59,8 @@ export default {
 /* .main-nav{} */
 #olNav {
   width: 100%;
+}
+.nav-item{
+  padding-right: 17px;
 }
 </style>

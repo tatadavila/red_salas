@@ -1,17 +1,17 @@
 <template>
   <div class="content page">
-    <!-- <Introduction></Introduction> -->
+    <Table></Table>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import Introduction from "@/components/Introduction.vue";
+import Table from "@/components/Table.vue";
 
 export default {
-  name: "welcome",
-  // components: {
-  //   Introduction
-  // }
+  name: "content",
+  components: {
+    Table
+  }
 };
 </script>

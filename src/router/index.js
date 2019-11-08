@@ -29,6 +29,11 @@ const routes = [
     name: "content",
     component: () => import("../views/Content.vue")
   }
+  // {
+  //   path: "/contenido",
+  //   name: "content",
+  //   component: () => import("../views/Content.vue")
+  // }
 ];
 
 const router = new VueRouter({
