@@ -1,17 +1,31 @@
 <template>
-	<div class="info">
-		<div id="containerList1" class="row justify-content-md-center">
-			<div id="imgContainer">
-				<img
-					src="../assets/img/mapa-colombia-lineal.png"
-					id="linelMap"
-					alt="Mapa Colombia"
-					align="left"
-				/>
-			</div>
-			<div class="col-xl-6 col-8"></div>
-		</div>
-	</div>
+  <div class="info">
+    <div id="containerList1" class="row justify-content-md-center">
+      <div class="col-xl-6 col-8">
+        <div id="imgContainer">
+          <img
+            src="../assets/img/mapa-colombia-lineal.png"
+            id="linelMap"
+            alt="Mapa Colombia"
+            align="left"
+          />
+        </div>
+      </div>
+      <div class="col-xl-6 col-8">
+        <p id="weText" align="justify">
+          Queridos Estudiantes, Tu Universidad Nacional Abierta y a Distancia
+          (UNAD) te da la BIENVENIDA, al curso de: DEUDA PÚBLICA DE COLOMBIA. La
+          temática a desarrollar en la primera unidad, es conocer como están
+          conformados los territorios de nuestro país por Departamentos y
+          capitales, la cual, mediante el presente recurso educativo digital, le
+          mostramos de una manera didáctica y sencilla, la estructura de
+          Colombia.
+          <br />Seguiremos atento a sus inquietudes. <br /> <b>El Recurso Educativo
+          Digital (RED), contribuye a nuestro aprendizaje.</b>
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -20,15 +34,15 @@ export default {
   props: {
     msg: String
   }
-//   methods: {
-// var img = document.getElementById('container').firstChild;
-//     img.onload = function() {
-//     if(img.height > img.width) {
-//         img.height = '100%';
-//         img.width = 'auto';
-//     }
-// };
-//   }
+  //   methods: {
+  // var img = document.getElementById('container').firstChild;
+  //     img.onload = function() {
+  //     if(img.height > img.width) {
+  //         img.height = '100%';
+  //         img.width = 'auto';
+  //     }
+  // };
+  //   }
 };
 </script>
 
@@ -36,13 +50,18 @@ export default {
 <style lang="css">
 .info {
   max-width: 100%;
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
 }
 #imgContainer {
-  max-height: 100%;
   width: 92%;
   /* background-color: brown; */
 }
 linealMap {
+  object-fit: contain;
+}
+#weText {
+  font-size: 137%;
+  padding: 5% 17%;
+  padding-left: 17%;
 }
 </style>

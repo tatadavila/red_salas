@@ -5,7 +5,7 @@
     >
       <div class="container">
         <ul class="nav navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <router-link to="/" class="nav-link">Presentacion</router-link>
           </li>
           <li class="nav-item">
@@ -14,7 +14,9 @@
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link">Tabla de Contenido</router-link>
+            <router-link to="/content" class="nav-link"
+              >Tabla de Contenido</router-link
+            >
           </li>
         </ul>
         <!-- <ul class="nav navbar-nav mx-auto">
