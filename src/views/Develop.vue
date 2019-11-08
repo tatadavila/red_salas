@@ -1,5 +1,5 @@
 <template>
-  <div class="purpose">
+  <div class="developPage">
     <!-- <Introduction></Introduction> -->
   </div>
 </template>
@@ -9,7 +9,7 @@
 // import Introduction from "@/components/Introduction.vue";
 
 export default {
-  name: "Purpose",
+  name: "develop",
   components: {
     // Introduction
   }

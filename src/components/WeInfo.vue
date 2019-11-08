@@ -1,5 +1,5 @@
 <template>
-  <div class="info">
+  <div class="infoWel">
     <div id="containerList1" class="row justify-content-md-center">
       <div class="col-xl-6 col-8">
         <div id="imgContainer">
@@ -48,8 +48,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
-.info {
+.infoWel   {
   max-width: 100%;
+  height: 90vh;
   /* background-color: darkcyan; */
 }
 #imgContainer {
@@ -58,6 +59,8 @@ export default {
 }
 linealMap {
   object-fit: contain;
+  width: 100%;
+  height: 87hv;
 }
 #weText {
   font-size: 137%;

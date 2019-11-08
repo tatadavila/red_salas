@@ -1,11 +1,14 @@
 <template>
   <div class="navbarComponent">
-    <nav
-      class="navbar navbar-expand-md navbar-fixed-top navbar-dark main-nav"
-    >
+    <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark main-nav">
       <div class="container">
         <ul align="center" id="navList" class="nav navbar-nav">
-          <li class="nav-item">
+          <li
+            :class="[
+              currentPage.includes('dashboard') ? activeClass : '',
+              'nav-item'
+            ]"
+          >
             <router-link to="/" class="nav-link">Presentacion</router-link>
           </li>
           <li class="nav-item">
@@ -65,8 +68,18 @@
 <script>
 export default {
   name: "Navbar",
+  data() {
+    return {
+      activeClass: "active"
+    };
+  },
   props: {
     msg: String
+  },
+  computed: {
+    currentPage() {
+      return this.$route.path;
+    }
   }
 };
 </script>
@@ -91,5 +104,12 @@ export default {
   right: 0;
   font-size: 25px;
    background-color:#2f4f4f;
+}
+.active {
+  opacity: 1;
+  visibility: visible;
+  border-left-color: #4DB6AC;
+  margin: 10px;
+  transition: all 0.25s;
 }
 </style>

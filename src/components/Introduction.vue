@@ -1,21 +1,17 @@
 <template>
   <div class="introduction">
-    <div class="container">
-      <ul id="presentInfo" style="list-style-type:none">
-        <li>MELQUIADES SALAS ANTELIZ</li>
-        <br />
-        <li>TEMATICA: DEUDA PUBLICA DE COLOMBIA</li>
+    <div id="introContainer" class="container">
+      <p id="introInfo" align="center">
+        <span id="introName" class="title">MELQUIADES SALAS ANTELIZ</span>
         <br />
         <br />
-        <li>Universidad Abierta y a Distancia UNAD</li>
-        <li>Escuela de Ciencias de la Educación</li>
-        <li>Educación continuada</li>
-        <li>Formación complementaria</li>
-        <li>Diplomatura E-Mediador en AVA</li>
-        <li>GRUPO 32</li>
-        <li>Barranquilla</li>
-        <li>2019</li>
-      </ul>
+        TEMATICA: DEUDA PUBLICA DE COLOMBIA <br />
+        <br />
+        Universidad Abierta y a Distancia <br />UNAD Escuela de Ciencias de la
+        Educación <br />Educación continuada <br />Formación complementaria
+        <br />Diplomatura E-Mediador <br />GRUPO 32 <br />Barranquilla
+        <br />2019
+      </p>
     </div>
   </div>
 </template>
@@ -34,15 +30,25 @@ export default {
 .introduction {
   background: url("../assets/img/mapa-politico-colombia.jpg") center no-repeat;
   background-size: cover;
-  height: 87vh;
+  height: 90vh;
 }
-#presentInfo {
+#introContainer {
   position: absolute;
-  margin-top: 27px;
+  height: 100%;
+  width: 50%;
+  /* background-color: rgb(0, 26, 255); */
+}
+#introInfo {
+  /* position: absolute; */
   padding-left: 0%;
-  font-size: 23px;
-  font-weight: bold;
-  color: black;
+  padding-top: 7%;
+  font-weight: 600;
+  font-size: 27px;
+  color: #1e3131;
   /* background-color: rgba(191, 181, 168, 0.5); */
+}
+#introName {
+  font-weight: bolder;
+  font-size: 40px;
 }
 </style>

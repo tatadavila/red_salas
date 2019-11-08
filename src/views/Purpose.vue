@@ -1,17 +1,16 @@
 <template>
   <div class="purpose">
-    <!-- <Introduction></Introduction> -->
+    <PurpInfo></PurpInfo>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import Introduction from "@/components/Introduction.vue";
-
+import PurpInfo from "@/components/PurpInfo.vue";
 export default {
   name: "Purpose",
   components: {
-    // Introduction
+    PurpInfo
   }
 };
 </script>
