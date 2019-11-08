@@ -1,10 +1,10 @@
 <template>
   <div class="navbarComponent">
     <nav
-      class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav"
+      class="navbar navbar-expand-md navbar-fixed-top navbar-dark main-nav"
     >
       <div class="container">
-        <ul id="navList" class="nav navbar-nav">
+        <ul align="center" id="navList" class="nav navbar-nav">
           <li class="nav-item">
             <router-link to="/" class="nav-link">Presentacion</router-link>
           </li>
@@ -18,23 +18,45 @@
               >Tabla de Contenido</router-link
             >
           </li>
-        </ul>
-        <!-- <ul class="nav navbar-nav mx-auto">
           <li class="nav-item">
-            <router-link to="/inicio" class="nav-link" href="#">DEUDA PUBLICA DE COLOMBIA</router-link>
+            <router-link to="/proposito" class="nav-link"
+              >Proposito</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link to="/desarrollo" class="nav-link"
+              >Desarrollo Tema</router-link
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+            
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Mas..</a
+            >
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li class="nav-item">
+                <router-link to="/conclusion" class="nav-link"
+                  >Conclusion</router-link
+                >
+              </li>
+              <li class="nav-item">
+                <router-link to="/referencias" class="nav-link"
+                  >Referencias</router-link
+                >
+              </li>
+              <li class="nav-item">
+                <router-link to="/creditos" class="nav-link"
+                  >Creditos</router-link
+                >
+              </li>
+            </div>
           </li>
         </ul>
-        <ul class="nav navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Rates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Help</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul> -->
       </div>
     </nav>
   </div>
@@ -52,15 +74,22 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .navbar {
-  font-weight: 700;
-  font-size: 25px;
+  font-size: 23px;
   color: aliceblue;
+  background-color: #2f4f4f;
 }
 /* .main-nav{} */
 #olNav {
   width: 100%;
 }
-.nav-item{
+.nav-item {
   padding-right: 17px;
+  font-weight: bolder;
+}
+.dropdown-menu {
+  left: auto;
+  right: 0;
+  font-size: 25px;
+   background-color:#2f4f4f;
 }
 </style>

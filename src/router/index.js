@@ -28,12 +28,32 @@ const routes = [
     path: "/contenido",
     name: "content",
     component: () => import("../views/Content.vue")
+  },
+  {
+    path: "/proposito",
+    name: "purpose",
+    component: () => import("../views/Purpose.vue")
+  },
+  {
+    path: "/desarrollo",
+    name: "develop",
+    component: () => import("../views/Develop.vue")
+  },
+  {
+    path: "/conclusion",
+    name: "closure",
+    component: () => import("../views/Closure.vue")
+  },
+  {
+    path: "/referencias",
+    name: "references",
+    component: () => import("../views/References.vue")
+  },
+  {
+    path: "/creditos",
+    name: "credits",
+    component: () => import("../views/Credits.vue")
   }
-  // {
-  //   path: "/contenido",
-  //   name: "content",
-  //   component: () => import("../views/Content.vue")
-  // }
 ];
 
 const router = new VueRouter({
