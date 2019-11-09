@@ -37,7 +37,7 @@
         width="80%"
         height="100%"
       />
-      <br>
+      <br /><br />
       <h3>Deuda interna del Sector Público Colombiano por prestamista</h3>
       <h4>Participación porcentual</h4>
     </div>
