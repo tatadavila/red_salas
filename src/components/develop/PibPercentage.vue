@@ -1,6 +1,13 @@
 <template>
   <div class="pib">
-    <h1>PORCENTAJE DEL PIB</h1>
+    <div id="pibWrap" class="wrapper">
+      <h3>PORCENTAJE DEL PIB</h3>
+      <img
+        src="../../assets/img/porcentaje_pib.png"
+        alt="deuda gobiernos centrales territoriales"
+        height="547vh"
+      />
+    </div>
   </div>
 </template>
 

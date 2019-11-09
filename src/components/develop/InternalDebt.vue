@@ -36,7 +36,9 @@
       />
     </div>
     <div id="internalWrapper" class="wrapper">
-      <h3 style="margin-top:7%;">Deuda Interna del Sector Público Colombiano por Prestamista</h3>
+      <h3 style="margin-top:7%;">
+        Deuda Interna del Sector Público Colombiano por Prestamista
+      </h3>
       <h4>Participación porcentual</h4>
       <img
         src="../../assets/img/participacion_porcentual_tabla.png"
@@ -55,6 +57,22 @@
         height="100%"
       />
     </div>
+    <div id="intExtWrap" class="wrapper">
+      <h3>
+        Saldos de la deuda interna y externa del Sector Público Colombiano
+      </h3>
+      <img
+        src="../../assets/img/Saldos_Deuda_Externa_Interna_Tabla.png"
+        alt="tabla deuda externa e interna"
+      />
+    </div>
+    <div id="intDebtWrap" class="wrapper">
+      <h3>Deuda interna del Sector Público Colombiano</h3>
+      <img
+        src="../../assets/img/tabla_deuda_interna_sector_publico.png"
+        alt="deuda interna sector publico tabla"
+      />
+    </div>
   </div>
 </template>
 
@@ -71,5 +89,11 @@ export default {
 <style lang="css">
 #internalWrapper {
   margin-top: 17px;
+}
+#intExtWrap {
+  margin-top: 7%;
+}
+#intDebtWrap {
+  margin-top: 7%;
 }
 </style>

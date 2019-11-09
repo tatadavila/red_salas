@@ -15,21 +15,26 @@
           </a>
         </li>
         <li>
-          <a>
+          <router-link to="/desarrollo/deudaexterna">
             <i class="fa fa-tachometer" aria-hidden="true">Deuda Externa</i>
-          </a>
+          </router-link>
         </li>
         <li>
-          <a>
+          <router-link to="/desarrollo/porcentajepib">
             <i class="fa fa-tachometer" aria-hidden="true"
               >Porcentaje del PIB</i
             >
-          </a>
+          </router-link>
         </li>
         <li class="header">Amortización de la Deuda</li>
         <li>
           <a>
-            <i class="fa fa-users" aria-hidden="true">Servicio de la Deuda</i>
+            <router-link
+              to="/desarrollo/serviciodeuda"
+              class="fa fa-users"
+              aria-hidden="true"
+              >Servicio de la Deuda</router-link
+            >
           </a>
         </li>
         <li class="header">Deuda pública Territorial</li>
@@ -59,3 +64,5 @@ export default {
   name: "develop"
 };
 </script>
+<style lang="css">
+</style>
