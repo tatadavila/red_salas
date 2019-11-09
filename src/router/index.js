@@ -1,6 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Develop from "../views/Develop.vue";
+
 
 Vue.use(VueRouter);
 
@@ -37,7 +39,34 @@ const routes = [
   {
     path: "/desarrollo",
     name: "develop",
-    component: () => import("../views/Develop.vue")
+    component: Develop,
+    children: [
+      {
+        path: "deudainterna",
+        name: "internaldebt",
+        component: () => import("../components/develop/InternalDebt.vue")
+      },
+      {
+        path: "deudaexterna",
+        name: "externaldebt",
+        component: () => import("../components/develop/ExternalDebt.vue")
+      },
+      {
+        path: "porcentajepib",
+        name: "pibpercentage",
+        component: () => import("../components/develop/PibPercentage.vue")
+      },
+      {
+        path: "serviciodeuda",
+        name: "debtservice",
+        component: () => import("../components/develop/DebtService.vue")
+      },
+      {
+        path: "deudapublica",
+        name: "publicdebt",
+        component: () => import("../components/develop/PublicDebt.vue")
+      }
+    ]
   },
   {
     path: "/conclusion",

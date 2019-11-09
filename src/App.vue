@@ -31,6 +31,9 @@ body {
   position: fixed;
   width: inherit;
 }
+.navComponent {
+  position: fixed;
+}
 .router-anim-enter-active {
   animation: coming 1s;
   opacity: 0;

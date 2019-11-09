@@ -1,6 +1,6 @@
 <template>
   <div class="navbarComponent">
-    <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark main-nav">
+    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark main-nav">
       <div class="container">
         <ul align="center" id="navList" class="nav navbar-nav">
           <li class="nav-item">
@@ -15,7 +15,7 @@
           </li>
           <li class="nav-item">
             <router-link to="/contenido" class="nav-link"
-              >Tabla de Contenido</router-link
+              >Tabla Contenido</router-link
             >
           </li>
           <li class="nav-item">
@@ -24,7 +24,7 @@
             >
           </li>
           <li class="nav-item">
-            <router-link to="/desarrollo" class="nav-link"
+            <router-link to="/desarrollo/deudainterna" class="nav-link"
               >Desarrollo Tema</router-link
             >
           </li>
