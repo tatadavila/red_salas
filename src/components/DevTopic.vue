@@ -1,6 +1,48 @@
 <template>
   <div class="topic">
-    <h1>MAS-ASPECTOS TEMATICOS A DESARROLLAR</h1>
+    <div class="sidebar-container">
+      <div class="sidebar-logo">ASPECTOS TEMATICOS A DESARROLLAR</div>
+      <ul class="sidebar-navigation">
+        <li class="header">Estructura y Clasificación</li>
+        <li>
+          <a href="#">
+            <i class="fa fa-home" aria-hidden="true"></i> Deuda Interna
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-tachometer" aria-hidden="true"></i> Deuda Externa
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-tachometer" aria-hidden="true"></i> Porcentaje del
+            PIB
+          </a>
+        </li>
+        <li class="header">Amortización de la Deuda</li>
+        <li>
+          <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i> Servicio de la Deuda
+          </a>
+        </li>
+        <li class="header">Deuda pública Territorial</li>
+        <li>
+          <a href="#">
+            <i class="fa fa-cog" aria-hidden="true"></i> Deuda Pública del
+            Departamento del Atlántico
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="contCont" class="content-container">
+      <div class="container-fluid">
+        <div class="jumbotron">
+          <img src="../assets/img/deuda_publico_diagrama.png" alt="deuda sector publico 2019" width="80%" height="100%"/>
+        </div>
+      </div>
+    </div>
+    <!-- <h1>MAS-ASPECTOS TEMATICOS A DESARROLLAR</h1>
     <p align="center">
       Estructura y clasificación
       <br />Deuda interna <br />Deuda Externa <br />Porcentaje del PIB
@@ -9,10 +51,7 @@
     </p>
     <div id="EstCla" class="container">
       <h2>ESTRUCTURA Y CLASIFICACIÓN</h2>
-      <img
-        src="../assets/img/deuda_publico_diagrama.png"
-        alt="deuda sector publico 2019"
-      />
+      
       <p align="justify">
         El Según cifras de la Contraloría General de la República, el monto de
         pasivos de las entidades públicas del nivel nacional alcanzó los $576.9
@@ -40,7 +79,7 @@
       <br /><br />
       <h3>Deuda interna del Sector Público Colombiano por prestamista</h3>
       <h4>Participación porcentual</h4>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -56,7 +95,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .topic {
+  height: 90vh;
   width: 100%;
-  background-color: lightsalmon;
+  /* background-color: lightsalmon;  */
 }
 </style>
