@@ -7,7 +7,7 @@
             src="../assets/img/mapa-colombia-lineal.png"
             id="linelMap"
             alt="Mapa Colombia"
-            align="left"
+            width="79%"
           />
         </div>
       </div>
@@ -56,15 +56,17 @@ export default {
 #imgContainer {
   width: 92%;
   /* background-color: brown; */
+  margin-left: 17%;
+
 }
 linealMap {
   object-fit: contain;
-  width: 100%;
-  height: 87hv;
 }
 #weText {
   font-size: 137%;
   padding: 5% 17%;
-  padding-left: 17%;
+  padding-left: 7%;
+  margin-top: 37px;
+  margin-right: 7%;
 }
 </style>
