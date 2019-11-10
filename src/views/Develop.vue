@@ -3,7 +3,14 @@
     <div class="sidebar-container">
       <div class="sidebar-logo">ASPECTOS TEMATICOS A DESARROLLAR</div>
       <ul class="sidebar-navigation">
-        <li class="header">Estructura y Clasificación</li>
+        <a>
+          <router-link
+            to="/desarrollo/deudainterna"
+            class="fa fa-home active"
+            aria-hidden="true"
+            >Estructura y Clasificación</router-link
+          >
+        </a>
         <li>
           <a>
             <router-link
@@ -64,5 +71,4 @@ export default {
   name: "develop"
 };
 </script>
-<style lang="css">
-</style>
+<style lang="css"></style>

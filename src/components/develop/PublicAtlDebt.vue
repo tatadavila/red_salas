@@ -1,5 +1,5 @@
 <template>
-  <div class="public">
+  <div class="pubatl">
     <div id="pubWrap" class="wrapper">
       <h2>DEUDA PÚBLICA DEL DEPARTAMENTO DEL ATLÁNTICO</h2>
       <img
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "PublicDebt",
+  name: "PublicAtlDebt",
   props: {
     msg: String
   }

@@ -42,9 +42,14 @@ const routes = [
     component: Develop,
     children: [
       {
-        path: "deudainterna",
+        path: "estructuraclasificacion",
         name: "internaldebt",
         component: () => import("../components/develop/InternalDebt.vue")
+      },
+      {
+        path: "deudainterna",
+        name: "structureclas",
+        component: () => import("../components/develop/StructureClas.vue")
       },
       {
         path: "deudaexterna",
@@ -57,14 +62,24 @@ const routes = [
         component: () => import("../components/develop/PibPercentage.vue")
       },
       {
+        path: "amortizaciondeuda",
+        name: "pibpercentage",
+        component: () => import("../components/develop/PibPercentage.vue")
+      },
+      {
         path: "serviciodeuda",
         name: "debtservice",
         component: () => import("../components/develop/DebtService.vue")
       },
       {
-        path: "deudapublica",
+        path: "deudapublicaterritorial",
+        name: "pubterridebt",
+        component: () => import("../components/develop/PublicTerriDebt.vue")
+      },
+      {
+        path: "deudapublicaatlantico",
         name: "publicdebt",
-        component: () => import("../components/develop/PublicDebt.vue")
+        component: () => import("../components/develop/PublicAtlDebt.vue")
       }
     ]
   },
