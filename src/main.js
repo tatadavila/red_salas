@@ -8,10 +8,11 @@ import "./assets/css/sidebar.css";
 Vue.config.productionTip = false;
 
 Vue.component("Navbar", require("./components/Navbar.vue").default);
-Vue.component("Introduction", require("./components/Introduction.vue").default);
-Vue.component("WeInfo", require("./components/WeInfo.vue").default);
 Vue.component("PurpInfo", require("./components/PurpInfo.vue").default);
 Vue.component("DevTopic", require("./components/DevTopic.vue").default);
+Vue.component("InternalDebt", require("./components/develop/InternalDebt.vue").default);
+Vue.component("InternalDebt", require("./components/develop/ExternalDebt.vue").default);
+Vue.component("InternalDebt", require("./components/develop/InternalDebt.vue").default);
 
 new Vue({
   router,
