@@ -22,17 +22,16 @@
   text-align: center;
   color: #2c3e50;
   width: 100%;
+  height: 100vh;
 }
 html,
 body {
   height: calc(100% - 50px);
+  /* background-color: orangered; */
 }
 .page {
   position: fixed;
   width: inherit;
-}
-.navbarComponent {
-  /* position: fixed; */
 }
 .router-anim-enter-active {
   animation: coming 1s;

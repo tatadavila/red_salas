@@ -110,6 +110,7 @@ export default {
 }
 #contCont {
   padding: 1px 3%;
-  margin: 0 7%;;
+  margin: 0 7%;
+  width: 100%;
 }
 </style>

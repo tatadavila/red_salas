@@ -1,6 +1,6 @@
 <template>
   <div class="welcome-page">
-    <div id="containerList1" class="row justify-content-md-center">
+    <div id="welContainer" class="row justify-content-md-center">
       <div class="col-xl-6 col-8">
         <div id="imgContainer">
           <img
@@ -8,6 +8,7 @@
             id="linelMap"
             alt="Mapa Colombia"
             width="79%"
+            height="597hv"
           />
         </div>
       </div>
@@ -40,16 +41,17 @@ export default {
 </script>
 
 <style lang="css">
-.infoWel {
+.welcome-page {
   max-width: 100%;
   max-height: 100%;
-  background-color: darkcyan;
+  /* background-color: aquamarine; */
 }
-#imgContainer {
-  width: 92%;
-  /* background-color: brown; */
-  margin-left: 17%;
-
+#imgContainer{
+  /* background-color: salmon; */
+  margin-top: 2px;
+}
+#welContainer {
+  padding: 5% 0  0;
 }
 linealMap {
   object-fit: contain;

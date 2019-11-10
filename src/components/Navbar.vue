@@ -4,9 +4,7 @@
       <div class="container">
         <ul align="center" id="navList" class="nav navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link" exact
-              >Presentación</router-link
-            >
+            <router-link to="/" class="nav-link">Presentación</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/bienvenida" class="nav-link"
