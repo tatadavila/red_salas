@@ -22,7 +22,9 @@
             >
           </li>
           <li class="nav-item">
-            <router-link to="/desarrollo/deudainterna" class="nav-link"
+            <router-link
+              to="/desarrollo/estructuraclasificacion"
+              class="nav-link"
               >Desarrollo Tema</router-link
             >
           </li>

@@ -79,7 +79,17 @@
               to="/desarrollo/deudapublicatlantico"
               class="fa fa-cog"
               aria-hidden="true"
-              >Deuda Pública del Departamento del Atlántico</router-link
+              >Deuda Pública Departamento Atlántico</router-link
+            >
+          </a>
+        </li>
+        <li>
+          <a>
+            <router-link
+              to="/desarrollo/videoyquiz"
+              class="fa fa-cog"
+              aria-hidden="true"
+              >Video y QUIZ</router-link
             >
           </a>
         </li>

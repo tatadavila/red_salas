@@ -16,7 +16,7 @@
 }
 
 .sidebar-logo {
-  padding: 7px 15px 7px 30px;
+  padding: 0 15px 0 30px;
   font-size: 18px;
   font-weight: 500;
   background-color: rgb(32, 138, 87);
@@ -38,7 +38,7 @@
 }
 
 .sidebar-navigation li a {
-  padding: 6px 15px 6px 30px;
+  padding: 5px 15px 5.7px 30px;
   display: block;
   color: #fff;
 }
