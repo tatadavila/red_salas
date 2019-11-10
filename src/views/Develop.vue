@@ -113,7 +113,7 @@ export default {
 .developPage{
   max-height: 100%;
   padding: 5.1%;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 #deuexTab {
   padding: 7%;

@@ -3,7 +3,6 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Develop from "../views/Develop.vue";
 
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -80,6 +79,11 @@ const routes = [
         path: "deudapublicatlantico",
         name: "publicdebt",
         component: () => import("../components/develop/PublicAtlDebt.vue")
+      },
+      {
+        path: "videoyquiz",
+        name: "quizvideo",
+        component: () => import("../components/quiz/Interface.vue")
       }
     ]
   },
