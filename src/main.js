@@ -8,7 +8,6 @@ import "./assets/css/sidebar.css";
 Vue.config.productionTip = false;
 
 Vue.component("Navbar", require("./components/Navbar.vue").default);
-Vue.component("PurpInfo", require("./components/PurpInfo.vue").default);
 Vue.component(
   "StructureClas",
   require("./components/develop/StructureClas.vue").default
