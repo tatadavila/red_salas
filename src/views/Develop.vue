@@ -69,7 +69,7 @@
               to="/desarrollo/deudapublicaterritorial"
               class="fa fa-cog"
               aria-hidden="true"
-              >Deuda pública Territorial</router-link
+              >Deuda Pública Territorial</router-link
             >
           </a>
         </li>

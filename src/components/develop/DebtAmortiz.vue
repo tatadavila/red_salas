@@ -1,6 +1,6 @@
 <template>
-  <div class="service">
-    <div id="serviWrap" class="wrapper">
+  <div class="amortiza">
+    <div id="amortiWrap" class="wrapper">
       <h3>AMORTIZACIÓN DE LA DEUDA</h3>
       <p align="justify">
         El creciente servicio de la deuda Algo que debería ser perfectamente
@@ -35,8 +35,8 @@
         componente importante dentro del servicio de la deuda del Gobierno
         Nacional fueron las operaciones de corto plazo y las de manejo de la
         deuda (Operaciones de canje), no obstante, para el 2012 no hubo
-        necesidad de ejecutar este tipo de operaciones. El crecimiento del
-        servicio a la deuda durante el 2012 fue de 11,16% frente al 2011, año en
+        necesidad de ejecutar este tipo de operaciones. El crecimiento del s
+        ervicio a la deuda durante el 2012 fue de 11,16% frente al 2011, año en
         el cual se había presentado una ligera disminución del 0,56%. Observando
         la tabla 5 se puede concluir que, consecuente con la política de
         disminución de la deuda externa, el servicio a la deuda interna de largo
@@ -49,36 +49,18 @@
         presenta un aumento del 123,23% al pasar de $29.534 billones a $36.393
         billones.
       </p>
-      <br />
-      <h2>SERVICIO DE LA DEUDA</h2>
-      <p align="justify">
-        Sostenibilidad de la deuda La sostenibilidad de la deuda resulta ser una
-        temática valiosa entre los analistas por su impacto en el acontecer de
-        la economía, por lo que su discusión siempre estará presente. El
-        problema fundamental radica en observar si el comportamiento temporal
-        del producto, la balanza comercial y la tasa de interés pagada por los
-        créditos adquiridos, mantienen una relación estable a través del tiempo,
-        de forma tal que su participación, como porcentaje del PIB, permanezca
-        constante o disminuya.
-      </p>
-      <br />
-      <h2>Servicio de la Deuda Publica 2018</h2>
-      <img
-        src="../../assets/img/tabla_servicio_deuda_publica.png"
-        alt="tabla deuda externa sector publico"
-      />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "DebtService"
+  name: "DebtAmortiz"
 };
 </script>
 
 <style lang="css">
-#serviWrap {
+#amortiWrap {
   margin-top: 0%;
   padding: 0 7%;
   /* background-color: brown; */

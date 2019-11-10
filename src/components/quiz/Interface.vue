@@ -18,7 +18,7 @@
       dic del 2.018 ascendió a:La deuda externa de Colombia al corte del 31 de
       diciembre del 2.018 ascendió a: <br />
       <input type="radio" name="q3" value="a" />a) $188.00 billones <br />
-      <input type="radio" name="q3" value="b" />b) $233.16   billones <br />
+      <input type="radio" name="q3" value="b" />b) $233.16 billones <br />
       <input type="radio" name="q3" value="c" />c) 288.49 billnes<br />
       <input type="radio" name="q3" value="d" />d) 316.00 billones<br /><br />
       4. La deuda externa de Colombia al corte del 31 de diciembre del 2.018
@@ -43,23 +43,20 @@ export default {
       var q2 = document.quizform.q2.value;
       var q3 = document.quizform.q3.value;
       var q4 = document.quizform.q4.value;
-      var count = () => {
-        if (q1 == "b") {
-          count++;
-        }
-
-        if (q2 == "a)") {
-          count++;
-        }
-        if (q3 == "b") {
-          count++;
-        }
-        if (q4 == "d") {
-          count++;
-        }
-        return count;
-      };
-      alert("Tuviste " + count + " correctas");
+      var count = 0;
+      if (q1 == "b") {
+        count++;
+      }
+      if (q2 == "a)") {
+        count++;
+      }
+      if (q3 == "b") {
+        count++;
+      }
+      if (q4 == "d") {
+        count++;
+      }
+      alert("Obtuviste " + count + " respuestas correctas");
     }
   }
 };

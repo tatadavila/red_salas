@@ -1,26 +1,5 @@
 <template>
   <div class="pubTer">
-    <div class="container-fluid">
-      <div class="jumbotron">
-        <h3>
-          Deuda del Sector Público Colombiano 2018 Cifras en billones de pesos y
-          porcentajes
-        </h3>
-        <img
-          src="../../assets/img/deuda_publico_diagrama.png"
-          alt="deuda sector publico 2019"
-          width="97%"
-          height="397vh"
-        />
-        <p align="justify">
-          El Según cifras de la Contraloría General de la República, el monto de
-          pasivos de las entidades públicas del nivel nacional alcanzó los
-          $576.9 billones (54,0% del PIB) y las del nivel territorial $48,97
-          billones (5,0% del PIB). Esto representa un incremento global de
-          $60,66 billones en la anterior vigencia.
-        </p>
-      </div>
-    </div>
     <div id="intImgCont" class="container">
       <img
         src="../../assets/img/diagram_deuda_territo.png"
@@ -64,13 +43,6 @@
       <img
         src="../../assets/img/Saldos_Deuda_Externa_Interna_Tabla.png"
         alt="tabla deuda externa e interna"
-      />
-    </div>
-    <div id="intDebtWrap" class="wrapper">
-      <h3>Deuda interna del Sector Público Colombiano</h3>
-      <img
-        src="../../assets/img/tabla_deuda_interna_sector_publico.png"
-        alt="deuda interna sector publico tabla"
       />
     </div>
   </div>

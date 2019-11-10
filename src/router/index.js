@@ -63,7 +63,7 @@ const routes = [
       {
         path: "amortizaciondeuda",
         name: "pibpercentage",
-        component: () => import("../components/develop/PibPercentage.vue")
+        component: () => import("../components/develop/DebtAmortiz.vue")
       },
       {
         path: "serviciodeuda",
