@@ -44,12 +44,12 @@ const routes = [
       {
         path: "estructuraclasificacion",
         name: "internaldebt",
-        component: () => import("../components/develop/InternalDebt.vue")
+        component: () => import("../components/develop/StructureClas.vue")
       },
       {
         path: "deudainterna",
         name: "structureclas",
-        component: () => import("../components/develop/StructureClas.vue")
+        component: () => import("../components/develop/InternalDebt.vue")
       },
       {
         path: "deudaexterna",
@@ -77,7 +77,7 @@ const routes = [
         component: () => import("../components/develop/PublicTerriDebt.vue")
       },
       {
-        path: "deudapublicaatlantico",
+        path: "deudapublicatlantico",
         name: "publicdebt",
         component: () => import("../components/develop/PublicAtlDebt.vue")
       }

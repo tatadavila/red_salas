@@ -3,14 +3,16 @@
     <div class="sidebar-container">
       <div class="sidebar-logo">ASPECTOS TEMATICOS A DESARROLLAR</div>
       <ul class="sidebar-navigation">
-        <a>
-          <router-link
-            to="/desarrollo/deudainterna"
-            class="fa fa-home active"
-            aria-hidden="true"
-            >Estructura y Clasificación</router-link
-          >
-        </a>
+        <li>
+          <a>
+            <router-link
+              to="/desarrollo/estructuraclasificacion"
+              class="fa fa-home active"
+              aria-hidden="true"
+              >Estructura y Clasificación</router-link
+            >
+          </a>
+        </li>
         <li>
           <a>
             <router-link
@@ -22,18 +24,35 @@
           </a>
         </li>
         <li>
-          <router-link to="/desarrollo/deudaexterna">
-            <i class="fa fa-tachometer" aria-hidden="true">Deuda Externa</i>
-          </router-link>
+          <a>
+            <router-link
+              to="/desarrollo/deudaexterna"
+              class="fa fa-tachometer"
+              aria-hidden="true"
+              >Deuda Externa</router-link
+            >
+          </a>
         </li>
         <li>
-          <router-link to="/desarrollo/porcentajepib">
-            <i class="fa fa-tachometer" aria-hidden="true"
-              >Porcentaje del PIB</i
+          <a>
+            <router-link
+              to="/desarrollo/porcentajepib"
+              class="fa fa-tachometer"
+              aria-hidden="true"
+              >Porcentaje del PIB</router-link
             >
-          </router-link>
+          </a>
         </li>
-        <li class="header">Amortización de la Deuda</li>
+        <li>
+          <a>
+            <router-link
+              to="/desarrollo/amortizaciondeuda"
+              class="fa fa-tachometer"
+              aria-hidden="true"
+              >Amortización de la Deuda</router-link
+            >
+          </a>
+        </li>
         <li>
           <a>
             <router-link
@@ -44,11 +63,20 @@
             >
           </a>
         </li>
-        <li class="header">Deuda pública Territorial</li>
         <li>
           <a>
             <router-link
-              to="/desarrollo/deudapublica"
+              to="/desarrollo/deudapublicaterritorial"
+              class="fa fa-cog"
+              aria-hidden="true"
+              >Deuda pública Territorial</router-link
+            >
+          </a>
+        </li>
+        <li>
+          <a>
+            <router-link
+              to="/desarrollo/deudapublicatlantico"
               class="fa fa-cog"
               aria-hidden="true"
               >Deuda Pública del Departamento del Atlántico</router-link
@@ -71,4 +99,17 @@ export default {
   name: "develop"
 };
 </script>
-<style lang="css"></style>
+<style lang="css">
+.developPage{
+  max-height: 100%;
+  padding: 5.1%;
+  background-color: aqua;
+}
+#deuexTab {
+  padding: 7%;
+}
+#contCont {
+  padding: 1px 3%;
+  margin: 0 7%;;
+}
+</style>

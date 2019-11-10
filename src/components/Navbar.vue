@@ -86,6 +86,8 @@ export default {
   font-size: 23px;
   color: aliceblue;
   background-color: #2f4f4f;
+  position: fixed;
+  width: 100%;
 }
 /* .main-nav{} */
 #olNav {
