@@ -27,7 +27,7 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .purpose {
   background: url("../assets/img/purpose-stairs.jpg") center no-repeat;
   background-size: cover;

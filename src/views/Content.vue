@@ -2,7 +2,7 @@
   <div class="content-page">
     <div class="row justify-content-md-center">
       <div id="tableContent" class="col-xl-6 col-8">
-        <h4>Unidad 2: DEUDA PÚBLICA DE COLOMBIA</h4>
+        <h3>Unidad 2: DEUDA PÚBLICA DE COLOMBIA</h3>
         <br />
         <ol id="list" align="left">
           <li>Estructura y clasificación</li>
@@ -27,18 +27,20 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .content-page {
   width: 100%;
-  height: 100%;
-  padding-top: 5%;
+  height: 100vh;
+  padding-top: 7px;
+  background-color: rgba(8, 94, 41, 0.514);
 }
 #tableContent {
   padding-top: 7%;
+  font-weight: 500;
 }
 #list {
   padding: 0 17%;
   padding-left: 27%;
-  font-size: 157%;
+  font-size: 27px;
 }
 </style>

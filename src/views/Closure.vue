@@ -51,7 +51,7 @@ export default {
   }
 };
 </script>
-<style lang="css">
+<style scoped>
 .text-wrapper {
   font-size: 27px;
   padding: 7%;

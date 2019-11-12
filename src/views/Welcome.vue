@@ -40,18 +40,18 @@ export default {
 };
 </script>
 
-<style lang="css">
+<style scoped>
 .welcome-page {
   max-width: 100%;
   max-height: 100%;
   /* background-color: aquamarine; */
 }
-#imgContainer{
+#imgContainer {
   /* background-color: salmon; */
   margin-top: 2px;
 }
 #welContainer {
-  padding: 5% 0  0;
+  padding: 5% 0 0;
 }
 linealMap {
   object-fit: contain;
@@ -64,4 +64,3 @@ linealMap {
   margin-right: 7%;
 }
 </style>
-

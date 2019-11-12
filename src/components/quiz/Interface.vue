@@ -3,6 +3,7 @@
     <form action="quizform" align="center">
       1. La deuda total del sector publico colombiano a fecha 31 de diciembre
       del 2.018 ascendió a: <br />
+      <input type="radio" v-model="pick1" v-bind:value="a" />
       <input type="radio" name="q1" value="a" />a) $300.00 billones <br />
       <input type="radio" name="q1" value="b" />b) $467.30 billones <br />
       <input type="radio" name="q1" value="c" />c) $576.90 billones <br />
@@ -28,17 +29,38 @@
       <input type="radio" name="q4" value="c" />c) 374.00 billones<br />
       <input type="radio" name="q4" value="d" />d) 343.74 billones<br />
       <br />
-
-      <input type="button" value="submit" @click="check()" />
+      <input type="button" value="submit" @click="check" />
     </form>
   </div>
 </template>
 
 <script>
+var quiz = {
+  title: "My quiz",
+  questions: [
+    {
+      text: "Question 1",
+      responses: [
+        { text: "Wrong, too bad." },
+        { text: "Right!", correct: true }
+      ]
+    },
+    {
+      text: "Question 2",
+      responses: [
+        { text: "Right answer", correct: true },
+        { text: "Wrong answer" }
+      ]
+    }
+  ]
+};
 export default {
   name: "Interface",
+  data: function() {
+    return {};
+  },
   methods: {
-    check() {
+    check: function() {
       var q1 = document.quizform.q1.value;
       var q2 = document.quizform.q2.value;
       var q3 = document.quizform.q3.value;
@@ -56,6 +78,7 @@ export default {
       if (q4 == "d") {
         count++;
       }
+      console.log("Realiza la operacion?");
       alert("Obtuviste " + count + " respuestas correctas");
     }
   }

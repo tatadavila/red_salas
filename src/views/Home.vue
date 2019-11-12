@@ -34,7 +34,7 @@ export default {
   background-size: cover;
   padding-top: 2%;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 #introInfo {
   /* position: absolute; */

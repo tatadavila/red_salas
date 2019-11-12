@@ -110,8 +110,8 @@ export default {
 };
 </script>
 <style scoped>
-.developPage{
-  max-height: 100%;
+.developPage {
+  height: 100vh;
   padding: 5.1%;
   /* background-color: aqua; */
 }

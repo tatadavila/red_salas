@@ -10,7 +10,7 @@
           src="../../assets/img/deuda_publico_diagrama.png"
           alt="deuda sector publico 2019"
           width="77%"
-          height="87%"
+          height="367vh"
         />
       </div>
     </div>
@@ -29,17 +29,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
 .estruClas {
-  height: 100%;
-  background-color: purple;
+  /* background-color: purple; */
 
-}
-#internalWrapper {
-  margin-top: 17px;
-}
-#intExtWrap {
-  margin-top: 7%;
-}
-#intDebtWrap {
-  margin-top: 7%;
 }
 </style>
