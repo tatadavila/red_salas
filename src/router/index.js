@@ -83,7 +83,7 @@ const routes = [
       {
         path: "videoyquiz",
         name: "quizvideo",
-        component: () => import("../components/quiz/Interface.vue")
+        component: () => import("../components/quiz/MyQuiz.vue")
       }
     ]
   },

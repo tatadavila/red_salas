@@ -109,7 +109,7 @@ export default {
   name: "develop"
 };
 </script>
-<style lang="css">
+<style scoped>
 .developPage{
   max-height: 100%;
   padding: 5.1%;
