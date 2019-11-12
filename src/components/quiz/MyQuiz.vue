@@ -1,10 +1,13 @@
 <template>
   <div id="myQuiz">
     <h1>{{ quiz.title }}</h1>
-    <div v-for="(question, index) in quiz.questions" :key="index">
+    <div
+      id="questionCont"
+      v-for="(question, index) in quiz.questions"
+      :key="index"
+    >
       <div v-show="index === questionIndex">
-        <h2>{{ question.text }}</h2>
-        <br />
+        <h2 id="questionText">{{ question.text }}</h2>
         <ol>
           <li v-for="response in question.responses" :key="response">
             <br />
@@ -20,14 +23,14 @@
           </li>
         </ol>
         <br />
-        <button v-if="questionIndex > 0" v-on:click="prev">prev</button>
-        <button v-on:click="next">next</button>
+        <button v-if="questionIndex > 0" v-on:click="prev">Anterior</button>
+        <button v-on:click="next">Suiguiente</button>
       </div>
     </div>
     <div id="finalScore" v-show="questionIndex === quiz.questions.length">
       <h2>Test Finalizado</h2>
       <br />
-      <p>Total score: {{ score() }} / {{ quiz.questions.length }}</p>
+      <p>Puntaje Total: {{ score() }} / {{ quiz.questions.length }}</p>
     </div>
   </div>
 </template>
@@ -105,8 +108,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scope>
+#questionText {
+  padding-left: 7%;
+}
 #finalScore {
   margin-top: 7%;
-  font-size: 170%;
+  font-size: 37px;
+}
+button {
+  font-size: 77%;
+}
+#questionCont {
+  font-size: 21px;
 }
 </style>

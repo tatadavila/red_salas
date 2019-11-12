@@ -87,6 +87,7 @@ export default {
   color: aliceblue;
   background-color: #2f4f4f;
   position: fixed;
+  z-index:1;
   width: 100%;
 }
 /* .main-nav{} */

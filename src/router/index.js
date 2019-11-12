@@ -100,7 +100,7 @@ const routes = [
   {
     path: "/creditos",
     name: "credits",
-    component: () => import("../views/Credits.vue")
+    component: () => import("../components/Credits.vue")
   }
 ];
 
