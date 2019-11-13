@@ -1,5 +1,5 @@
 <template>
-  <div id="myQuiz">
+  <div class="myQuiz">
     <h1>{{ quiz.title }}</h1>
     <div
       id="questionCont"
@@ -107,7 +107,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scope>
+<style scoped lang="css">
+.myQuiz {
+   padding-top: 37px;
+   padding-bottom: 47px;
+}
 #questionText {
   padding-left: 7%;
 }

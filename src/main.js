@@ -8,6 +8,14 @@ import "./assets/css/sidebar.css";
 Vue.config.productionTip = false;
 
 Vue.component("Navbar", require("./components/Navbar.vue").default);
+Vue.component(
+  "MyVideo",
+  require("./components/develop/vid/MyVideo.vue").default
+);
+Vue.component(
+  "MyQuiz",
+  require("./components/develop/quiz/MyQuiz.vue").default
+);
 
 new Vue({
   router,

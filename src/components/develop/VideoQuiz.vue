@@ -1,15 +1,18 @@
 <template>
   <div class="videoQuiz">
-    <!-- <MyVideo></MyVideo> -->
-    
+    <MyVideo></MyVideo>
+    <MyQuiz></MyQuiz>
   </div>
 </template>
 
 <script>
+import MyVideo from "../develop/vid/MyVideo";
+import MyQuiz from "@/components/develop/quiz/MyQuiz.vue";
 export default {
   name: "VideoQuiz",
-  data: function() {
-    return {};
+  component: {
+    MyVideo,
+    MyQuiz
   }
 };
 </script>
@@ -17,6 +20,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="css">
 .videoQuiz {
-  padding-top: 77px;
+  background-color: blue;
 }
 </style>
