@@ -6,7 +6,7 @@
           <span id="introName" class="title">MELQUIADES SALAS ANTELIZ</span>
           <br />
           <br />
-          <span id="homeSubTit">TEMATICA: DEUDA PUBLICA DE COLOMBIA</span>
+          <span id="homeSubTit">TEMATICA: DEUDA PÚBLICA DE COLOMBIA</span>
           <br />
           <br />
           Universidad Abierta y a Distancia <br />UNAD Escuela de Ciencias de la

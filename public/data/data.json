@@ -1,49 +1,49 @@
 {
+  "title": "Quiz acerca de la Deuda Pública de Colombia",
   "questions": [
     {
-      "question": "La deuda total del sector publico colombiano a fecha 31 de diciembre del 2.018 ascendió a:",
-      "type": "radio",
-      "correct": 2,
+      "text": "La deuda total del sector público colombiano a fecha 31 de diciembre del 2.018 ascendió a:",
+      "type": "mc",
       "answers": [
         "$300.00 billones",
         "$467.30 billones",
         "$576.90 billones",
         "$600.00 billones"
-      ]
+      ],
+      "answer": "$576.90 billones"
     },
     {
-      "question": "La deuda de los territorios nacionales a nivel general a fecha 31 de dic del 2.018 ascendió a:",
-      "type": "radio",
-      "correct": 0,
+      "text": "La deuda de los territorios nacionales a nivel general a fecha 31 de dic del 2.018 ascendió a:",
+      "type": "mc",
       "answers": [
         "$48.97 billones",
         "$36.29 billones",
         "$28.61 billones",
         "$13.05 billones"
-      ]
+      ],
+      "answer": "$48.97 billones"
     },
     {
-      "question": "La deuda externa de Colombia al corte del 31 de diciembre del 2.018 ascendió a:",
-      "type": "radio",
-      "correct": 1,
+      "text": "La deuda externa de Colombia al corte del 31 de diciembre del 2.018 ascendió a:",
+      "type": "mc",
       "answers": [
         "$188.00 billones",
-        "233.16   billones",
-        "288.49 billnes",
+        "233.16 billones",
+        "288.49 billones",
         "316.00 billones"
-      ]
+      ],
+      "answer": "$233.16 billones"
     },
-    ,
     {
-      "question": "La deuda interna de Colombia al corte del 31 de diciembre del 2.018 ascendió a:",
-      "type": "radio",
-      "correct": 3,
+      "text": "La deuda interna de Colombia al corte del 31 de diciembre del 2.018 ascendió a:",
+      "type": "mc",
       "answers": [
         "303.18 billone",
         "$320.01 billones",
         "374.00 billones",
         "$343.74 billones"
-      ]
+      ],
+      "answer": "343.74 billones"
     }
   ]
 }

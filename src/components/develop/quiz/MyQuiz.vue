@@ -37,7 +37,7 @@
 
 <script>
 var quiz = {
-  title: "TEST SOBRE DEUDA PUBLICA DE COLOMBIA",
+  title: "TEST SOBRE DEUDA PÚBLICA DE COLOMBIA",
   questions: [
     {
       text:

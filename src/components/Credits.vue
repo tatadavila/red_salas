@@ -52,7 +52,7 @@
         Gerenciales)de la Universidad Rafael Belloso Chacín de Maracaibo
         Venezuela, Magíster en Gerencia de Proyectos de Investigación y
         Desarrollo en la Universidad Rafael Belloso Chacín de Maracaibo -
-        Venezuela, Especialista en Finanzas Publicas de la Universidad de
+        Venezuela, Especialista en Finanzas Públicas de la Universidad de
         Cartagena-Universidad Popular del Cesar, Contador público de la
         Universidad Popular del Cesar, Diplomados en: Docencia Universitaria,
         Normas Internacionales de Información Financiera. Docente de la

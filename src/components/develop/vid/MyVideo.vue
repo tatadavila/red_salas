@@ -1,6 +1,5 @@
 <template>
   <div class="myVideo">
-    <h2>¿Qué es la deuda pública?</h2>
     <video width="87%" height="500" controls>
       <source
         src="@/assets/video/que_es_la_deuda_publica_.webm"

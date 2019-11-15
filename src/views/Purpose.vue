@@ -11,7 +11,7 @@
         componentes y cómo fue el comportamiento respecto del Producto Interno
         Bruto. Al final de esta presentación el estudiante podrá: Identificar la
         composición del territorio nacional, por departamentos y Conocer el
-        estado de la Deuda publica colombiana, su estructura y clasificación,
+        estado de la Deuda pública colombiana, su estructura y clasificación,
         subdivisiones por rubros y cifras, así como el origen de las mismas y su
         amortización o servicio de la deuda, haciendo énfasis en los territorios
         en especial, el departamento del atlántico.

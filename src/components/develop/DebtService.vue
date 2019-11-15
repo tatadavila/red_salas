@@ -13,7 +13,7 @@
         constante o disminuya.
       </p>
       <br />
-      <h2>Servicio de la Deuda Publica 2018</h2>
+      <h2>Servicio de la Deuda Pública 2018</h2>
       <img
         src="../../assets/img/tabla_servicio_deuda_publica.png"
         alt="tabla deuda externa sector publico"
@@ -29,6 +29,9 @@ export default {
 </script>
 
 <style lang="css">
+.service{
+  padding-bottom: 17px;
+}
 #serviWrap {
   margin-top: 0%;
   padding: 0 7%;

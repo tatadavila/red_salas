@@ -21,13 +21,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
-#internalWrapper {
-  margin-top: 17px;
-}
 #intExtWrap {
   margin-top: 7%;
 }
 #intDebtWrap {
-  margin-top: 7%;
+  margin-top: 7px;
+  padding-bottom: 17px;
 }
 </style>

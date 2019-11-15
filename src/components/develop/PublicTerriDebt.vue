@@ -59,13 +59,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="css">
-#internalWrapper {
-  /* margin-top: 17px; */
-}
-#intExtWrap {
-  /* margin-top: 7%; */
-}
-#intDebtWrap {
-  /* margin-top: 7%; */
+.pubTer {
+  padding-bottom: 27px;
 }
 </style>
