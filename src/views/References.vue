@@ -2,7 +2,7 @@
   <div class="refPage">
     <div class="text-wrapper">
       <h1>REFERENTES BIBLIOGRÁFICOS:</h1>
-      <ul text-align="left">
+      <ul>
         <li>
           Text Celebriti (2019) “la deuda pública” Recuperado de
           https://www.cerebriti.com
@@ -32,5 +32,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="css">
+.refPage {
+  padding: 77px;
+}
 </style>
