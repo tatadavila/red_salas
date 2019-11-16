@@ -32,7 +32,7 @@ export default {
   width: 100%;
   height: 100vh;
   padding-top: 7px;
-  background-color: rgba(8, 94, 41, 0.514);
+  background-color: rgba(5, 71, 31, 0.2);
 }
 #tableContent {
   padding-top: 7%;

@@ -67,6 +67,12 @@ export default {
     reRender() {
       this.renderKey++;
     }
+  },
+  mounted() {
+    console.log("Will it play here?? lol");
+    console.log("Play outside of");
+    var audio = new Audio("file://path-to-file/file.mp3"); // path to file
+    audio.play();
   }
 };
 </script>

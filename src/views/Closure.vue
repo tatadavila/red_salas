@@ -52,6 +52,9 @@ export default {
 };
 </script>
 <style scoped>
+.closure-page {
+  background-color: rgba(5, 71, 31, 0.2);
+}
 .text-wrapper {
   font-size: 27px;
   padding: 7%;

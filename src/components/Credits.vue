@@ -21,8 +21,17 @@
       <div class="col">
         <img
           src="../assets/img/bandera_atlantico.jpg"
-          alt="bandera dept atlantico"
+          alt="bandera dept atlántico"
           width="87%"
+        />
+        Despartamento del Atlántico Bandera
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <img
+          src="../assets/img/min-hacienda-logo.png"
+          alt="ministerio de hacienda colombia"
         />
       </div>
     </div>
@@ -48,8 +57,8 @@
     </div>
     <div id="thirdRow" class="row justify-content-center">
       <p align="justify">
-        Melquiades Salas Anteliz : Doctor en Administración(ciencias
-        Gerenciales)de la Universidad Rafael Belloso Chacín de Maracaibo
+        Melquiades Salas Anteliz : Doctor en Administración (Ciencias
+        Gerenciales) de la Universidad Rafael Belloso Chacín de Maracaibo
         Venezuela, Magíster en Gerencia de Proyectos de Investigación y
         Desarrollo en la Universidad Rafael Belloso Chacín de Maracaibo -
         Venezuela, Especialista en Finanzas Públicas de la Universidad de
@@ -78,7 +87,7 @@ export default {
 .credits {
   height: 100%;
   padding-top: 77px;
-  background-color: rgba(8, 94, 41, 0.514);
+  background-color: rgba(5, 71, 31, 0.2);
 }
 #firstRow {
   padding-left: 27px;
