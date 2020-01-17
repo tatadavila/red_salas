@@ -1,29 +1,11 @@
-# red_salas
+# Deuda Publica de Colombia
+This project is a educational tool, used for students to improve and test the knowledge about Colombia's public debt.
 
-## Project setup
-```
-npm install
-```
+## Project URL
+https://deuda-publica-col-melquiades.herokuapp.com
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Authors
+Tatiana Davila Albis - [tatadavila](github.com/tatadavila)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+This project is licensed under the MIT License
